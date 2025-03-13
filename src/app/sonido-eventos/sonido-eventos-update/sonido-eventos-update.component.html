@@ -1,0 +1,15 @@
+<div class="modal">
+  <div class="modal-content">
+    <h2>Editar Sonido</h2>
+    <label>Evento:</label>
+    <input type="text" [(ngModel)]="sonidoEvento.evento">
+
+    <label>Sonido:</label>
+    <input type="text" [(ngModel)]="sonidoEvento.sonido">
+
+    <div class="modal-actions">
+      <button (click)="guardarCambios()">Guardar</button>
+      <button (click)="cerrarModal()">Cancelar</button>
+    </div>
+  </div>
+</div>
